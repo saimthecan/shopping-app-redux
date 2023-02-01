@@ -18,7 +18,7 @@ import alertify from "alertifyjs";
 class CartSummary extends Component {
   removeFromCart(product){
     this.props.actions.removeFromCart(product);
-    alertify.error(product.productName + " sepetten silindi")
+    alertify.error(product.productName + " deleted from the cart")
 }
   renderSummary() {
     return (
