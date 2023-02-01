@@ -33,7 +33,7 @@ class CategoryList extends Component {
             </ListGroupItem>
           ))}
         </ListGroup>
-        s
+       
       </div>
     );
   }
