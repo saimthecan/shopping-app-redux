@@ -33,7 +33,7 @@ class CartDetail extends Component {
 
                   <td> 
                   <Button color="danger" onClick ={() => this.removeFromCart(cartItem.product)}>
-                    Sil
+                    Delete
                   </Button>
                   </td>
                 </tr>
